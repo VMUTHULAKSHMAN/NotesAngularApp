@@ -17,9 +17,6 @@ export class NotesComponent implements OnInit{
   }
   ngOnInit(): void {
    this.notes = this.dummy();
-  //  this.notes?.forEach(eachElement => {
-  //    console.log(eachElement.content?.length);
-  //  });
   }
   
 

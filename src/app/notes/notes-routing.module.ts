@@ -7,11 +7,11 @@ const routes: Routes = [];
 @NgModule({
   imports: [RouterModule.forChild([
     {
-      path: '', component: ListnotesComponent
+      path: 'listNote', component: ListnotesComponent
       
     },
     {
-      path: 'add',component: AddnotesComponent
+      path: 'addNote',component: AddnotesComponent
       
     },
   ]),
