@@ -21,8 +21,6 @@ export class ListnotesComponent implements OnInit {
   loadnotes(){
     this.noteservice.loadGist().subscribe({
       next: ( res: HttpResponse<IGist[]>) => {
-        console.log(res.body);
-        //this.notes = res.body?.map( gist => new Notes(gist.Id,gist.url)) ?? [];
         this.notes = res.body?.map( Gist => new Notes(Gist.id, Gist.url)) ?? [];
       },
       error : () => {
