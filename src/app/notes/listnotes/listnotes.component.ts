@@ -18,10 +18,10 @@ export class ListnotesComponent implements OnInit {
   }
   ngOnInit(): void {
     this.notes = [
-      {Id:1,content:"One"},
-        {Id:2,content:"Two"},
-        {Id:3,content:"Three"},
-        {Id:4,content:"Four"}
+      {Id:"1",content:"One"},
+        {Id:"2",content:"Two"},
+        {Id:"3",content:"Three"},
+        {Id:"4",content:"Four"}
     ];
     this.length=this.notes.length;
   //  this.notes?.forEach(eachElement => {

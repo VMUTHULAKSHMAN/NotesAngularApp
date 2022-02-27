@@ -1,8 +1,8 @@
 export interface INotes{
-    Id?:number;
+    Id?:string;
     content?:string;
 }
 
 export class Notes implements INotes{
-    constructor(public Id?:number,public content?:string){}
+    constructor(public Id?:string,public content?:string){}
 }

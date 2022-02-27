@@ -12,7 +12,7 @@ export class NotesComponent implements OnInit{
     
   }
   dummy(){
-    return[new Notes(1,'One'),new Notes(2,'Two'),new Notes(3,'Three'),new Notes(4,'Four'),new Notes(5,'Five')];
+    return[new Notes('1','One'),new Notes('2','Two'),new Notes('3','Three'),new Notes('4','Four'),new Notes('5','Five')];
     //return [];
   }
   ngOnInit(): void {
